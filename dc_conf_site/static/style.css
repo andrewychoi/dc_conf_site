@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	overflow-y: scroll;
+	overflow: -moz-scrollbars-vertical;
+}
+
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #EEE;
+}
+
+#wrapper {
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* header and navigation */
+#header {
+	display: inline-block;
+	height: 382px;
+	width: 100%;
+	background-image: url(images/bg.png);
+	background-repeat: repeat-x;
+}
+
+#navholder {
+	display: inline-block;
+	width: 1000px;
+	height: 89px;
+}
+
+.nav {
+	position: relative;
+	float: right;
+}
+
+#content {
+	display: inline-block;
+	width: 900px;
+	text-align: left;
+	padding: 10px;
+}
+
+table tr td {
+	padding-right: 10px;
+}
+
+/* footer navigation and copyright */
+#footer {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}style.css" />
+<title>NITRD Workshop</title>
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="header">
+        <div id="navholder">
+            <div class="nav">
+                <a href="/organizers/"><img src="{{ STATIC_URL }}images/organizers.png" /></a>
+            </div>
+            
+            <div class="nav">
+                <a href="/report/"><img src="{{ STATIC_URL }}images/report.png" /></a>
+            </div>
+            
+            <div class="nav">
+                <a href="/venue/"><img src="{{ STATIC_URL }}images/venue.png" /></a>
+            </div>
+            
+            <div class="nav">
+                <a href="/attendants/"><img src="{{ STATIC_URL }}images/attendants.png" /></a>
+            </div>
+            
+            <div class="nav">
+                <a href="/program/"><img src="{{ STATIC_URL }}images/program.png" /></a>
+            </div>
+            
+            <div class="nav">
+                <a href="/register/"><img src="{{ STATIC_URL }}images/register.png" /></a>
+            </div>
+            
+            <div class="nav">
+                <a href="/index/"><img src="{{ STATIC_URL }}images/home.png" /></a>
+            </div>
+            
+        </div>
+        <img src="{{ STATIC_URL }}images/banner.jpg" style="margin-top: -89px;" />
+    </div>
+    <div id="content">
+    	{% block content %}{% endblock %}
+    </div>
+    <div id="footer">
+    </div>
+</div>
+</body>
+</html>
